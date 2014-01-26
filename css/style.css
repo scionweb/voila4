@@ -1,0 +1,310 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType <p></p>features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included (Monas Lisa FS Regular) are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'mona_lisa_fsregular';
+    src: url('../fonts/MonaLisa-webfont.eot');
+    src: url('../fonts/MonaLisa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonaLisa-webfont.woff') format('woff'),
+         url('../fonts/MonaLisa-webfont.ttf') format('truetype'),
+         url('../fonts/MonaLisa-webfont.svg#mona_lisa_fsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/*border: none;*/
+
+}
+
+body {
+	background: #222;
+}
+
+h1 {
+	font-family: 'mona_lisa_fsregular';
+	font-weight: normal;
+}
+
+	
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}	
+
+#blind {
+	height: 10px;
+	background: #222;
+	position: fixed;
+	width: 960px;
+	top: 0;
+	z-index: 1;
+}
+
+#header {
+	background: #fff;
+	position: fixed;
+	z-index: 1;
+	top: 10px;
+	height: 130px;
+	width: 940px;
+	border-bottom: 15px solid #222;
+	padding: 5px 10px;
+}
+
+	#nav {
+		height: 25px;
+		padding-top: 5px;
+		padding-left: 5px;
+		width: 630px;
+		float: right;
+		margin-right: 15px;
+		position: relative;
+		border: 1px solid transparent;
+		border-radius: 15px;
+		background-image: url('../images/low_contrast_linen.png');
+		/*background-color: black;*/
+	}
+
+		#nav ul {
+			list-style: none;
+		}
+
+			#nav ul li {
+				float: left;
+				text-align: center;
+				font-size: 16px;
+			}
+
+			#nav a {
+				margin: 0 12px;
+				font-family: 'mona_lisa_fsregular';
+				font-size: 24px;
+				font-weight: normal;
+				color: white;
+				text-decoration: none;
+			}
+
+			#nav a:hover {
+				text-decoration: underline;
+			}
+
+			
+
+#logo {
+	font-size: 120px;
+	float: left;
+	position: absolute;
+	top: 0;
+	margin-left: 20px;
+	/*letter-spacing: -10px;*/
+	
+}
+
+#motto {
+	position: relative;
+	font-style: italic;
+	font-size: 42px;
+	text-align: right;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	color: #eee;
+	text-shadow: -2px 2px 5px black;
+}
+
+#content {
+	margin-top: 135px;
+	padding-top: 25px;
+	/*background: white;*/
+}
+
+#content h2 {
+	font-family: 'mona_lisa_fsregular';
+	font-weight: normal;
+	font-size: 48px;
+}
+
+.focus {
+	/*min-height: 600px;*/
+	background: white;
+	position: relative;
+	/*border: 1px solid black;*/
+	padding: 10px 25px 25px 175px;
+	margin: 10px 0;
+	background-position: left top;
+	background-repeat: no-repeat;
+	/*padding-left: 175px;*/
+}
+
+	.focus h1, h2 {
+		padding-bottom: 10px;
+	}
+
+	.focus ul {
+		list-style: none;
+		font-size: 22px;
+	}
+
+		.focus ul li {
+			margin-left: 25px;
+			padding-bottom: 15px;
+		}
+
+		.focus ul li:first-child, .focus ul li:last-child {
+			margin-left: 0px;
+		}
+
+		.focus ul li span {
+			font-size: 40px;
+			font-family: 'mona_lisa_fsregular';
+		}
+
+.album {
+	margin-left: 25px;
+	/*width: 520px;*/
+	height: 500px;
+	position: relative;
+	z-index: 0;
+}
+
+
+.anchor {
+	position: absolute;
+	top: -165px;
+}
+
+.serving {
+	clear: both;
+	/*width: 940px;
+	margin-left: -10px;
+	padding: 0 10px;*/
+	/*position: relative;*/
+	/*padding: 10px 0 5px;*/
+	}
+
+	.serving p {
+		font-size: 28px;
+		font-style: italic;
+		padding: 3px;
+		margin: 3px;
+		text-align: center;
+	}
+
+.photo {
+	background-image: url('../images/green-lady2.png');
+}
+
+.movie {
+		background-image: url('../images/blue-lady2.png');
+}
+
+.personal {
+		background-image: url('../images/red-lady2.png');
+}
+
+.contact {
+		background-image: url('../images/grace2.jpg');
+}
+
+	.contact img {
+		margin: 0 20px;
+	}
+
+	#contact_form {
+		width: 500px;
+		padding: 20px;
+		border: 1px solid black;
+		background-image: url('../images/mochaGrunge.png');
+	}
+
+
+#footer {
+	background-color: #222;
+	height: 50px;
+	color: white;
+	text-align: center;
+}
+
+#thanks  {
+	margin-top: 100px;
+	padding-top: 55px;
+	background: white;
+	height: 350px;
+}
+
+#thanks h1 {
+	font-size: 48px;
+}
+
+#thanks p {
+	font-size: 20px;
+}
+
+#thanks h2 {
+	font-size: 30px;
+	
+}
+
+
+
+
+
+/* colors */
+.red {
+	color: #B30000;
+	text-shadow: -2px 2px 5px #888;
+}
+
+.plainred {
+	color: #B30000;
+}
+
+.clr {
+	clear: both;
+}
+
+
+.flt-left {
+	float: left;
+}
+
+.testimonial {
+	font-size: 18px;
+	line-height: 200%;
+	padding: 0 20px;
+	font-style: italic;
+}
+
+	.testimonial:before {
+		content: url(../images/quote.png);
+	}
+
+	.testimonial:after {
+		content: url(../images/endquote.png);
+		position: absolute;
+	}
